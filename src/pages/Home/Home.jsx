@@ -1,14 +1,14 @@
 import { useEffect } from "react"
-import { getCars } from "../../components/fetchCar";
+// import { getCars } from "../../components/fetchCar";
 
 
 export const Home = () => {
 
       useEffect(() => {
-        const getMovies = async () => {
+        const getCars = async () => {
         //   setIsLoading(true);
           try {
-            const fetch = await getCars();
+            // const fetch = await getCars();
             // setMovies(fetch);
           } catch (error) {
             // setError(error);
@@ -16,7 +16,7 @@ export const Home = () => {
             // setIsLoading(false);
           }
         };
-        getMovies();
+        getCars();
       }, []);
     return (
       <div>
