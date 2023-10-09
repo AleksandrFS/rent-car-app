@@ -19,6 +19,17 @@ export const Home = () => {
         getMovies();
       }, []);
     return (
-        <div>Home</div>
-    )
+      <div>
+            <div>
+                <p>Car brand</p>
+        </div>
+            <div>
+                <p>Price / 1 hour</p>
+        </div>
+            <div>
+                <p>Car mileage / km</p>
+            </div>
+            <button>Search</button>
+      </div>
+    );
 }
